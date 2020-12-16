@@ -7,5 +7,8 @@ def render(w,h):
                 print(" ",end="")
         print()
 
-render(10,10)
+while True:
+    w = int(input("Enter width: "))
+    h = int(input("Enter height: "))
+    render(w,h)
 
